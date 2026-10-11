@@ -1,6 +1,6 @@
 # gustav474.github.io
 
-Персональное резюме Сергея Лапшина — Lead QA Engineer / SDET / Product Engineer.
+Одностраничное персональное резюме Сергея Лапшина — Lead QA Engineer / Product Engineer.
 
 Сайт работает без сборки и зависимостей: GitHub Pages публикует файлы из корня ветки `main`.
 
