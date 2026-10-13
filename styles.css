@@ -262,36 +262,6 @@ h2 > span {
   font-size: 14px;
 }
 
-.highlights {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
-  margin: 22px 0 0;
-  padding: 1px;
-  list-style: none;
-  background: var(--line);
-}
-
-.highlights li {
-  padding: 13px 15px;
-  background: var(--paper);
-}
-
-.highlights strong,
-.highlights span {
-  display: block;
-}
-
-.highlights strong {
-  font-size: 12px;
-}
-
-.highlights span {
-  margin-top: 2px;
-  color: var(--ink-muted);
-  font-size: 11px;
-}
-
 .ai-callout {
   display: grid;
   grid-template-columns: 92px 1fr;
@@ -312,7 +282,7 @@ h2 > span {
 }
 
 .ai-callout p {
-  margin: 0 0 10px;
+  margin: 0;
   color: var(--ink-soft);
   font-size: 14px;
 }
@@ -572,7 +542,6 @@ footer p:last-child {
   }
 
   .summary-grid,
-  .highlights,
   .skills-grid {
     grid-template-columns: 1fr;
   }
@@ -699,11 +668,6 @@ footer p:last-child {
     font-size: 11px;
   }
 
-  .highlights {
-    margin-top: 14px;
-  }
-
-  .highlights li,
   .skills-grid > div {
     padding: 9px 12px;
   }
